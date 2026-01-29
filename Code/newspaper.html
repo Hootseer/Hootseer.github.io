@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcreteAuth</title>
+
+    <link rel="icon" type="image/x-icon" href="/Assets/Images/ConcreteAuth Logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <link href="/Code/general.css" rel="stylesheet">
+    <link href="/Code/newspaper.css" rel="stylesheet">
+    <script src="/Code/general.js"></script>
+</head>
+<body>
+
+    <!--Header Navigation Bar-->
+    <header>
+        <nav style="background-color:var(--primary50Black)">
+            <div class="nav-container">
+                <a href="/index.html" class="logo-container">
+                    <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                    <div class="logo-text">ConcreteAuth</div>
+                </a>
+                <div class="nav-menu">
+                  <a href="/Code/about.html" class="small">Σχετικά</a>
+                  <a href="/Code/actions.html" class="small">Δράσεις</a>
+                  <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                  <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                  <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+                </div>
+            </div>
+        </nav>
+        <div id="alternative-nav-bar">
+            <div class="alt-nav-bar-container">
+                <button onclick="toggleNavMenu()"><img src="/Assets/Icons/Menu.png" alt="alt-menu"></button>
+                <div class="alternative-nav-menu non-visible">
+                    <a href="/Code/about.html" class="small">Σχετικά</a>
+                    <a href="/Code/actions.html" class="small">Δράσεις</a>
+                    <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                    <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                </div>
+                <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+            </div>
+        </div>
+    </header>
+    <!--Main Section-->
+    <main>
+        <div class="main-container">
+            <!--Newspaper Hero Section-->
+            <div class="newspaper-hero-container">
+                <div class="newspaper-hero-title-container">
+                    <p>Γράψε το Επόμενο Άρθρο</p>
+                    <p class="h1">Φοιτητική Εφημερίδα </p>
+                    <p>
+                        Η Φοιτητική Εφημερίδα του ConcreteAuth φιλοξενεί πληθώρα άρθρων και οπτικού υλικού . 
+                        Η θεματολογία της καλύπτει θέματα που αφορούν την κοινωνία , την επιστήμη 
+                        , το περιβάλλον και την ψυχαγωγία  .</p>
+                </div>
+                <div class="newspaper-btn-container">
+                    <a class="button-link">Γίνε Μέλος Της Συντακτικής Ομάδας !</a>
+                    <a href="#article-section" class="button-link">Διάβασε Περισσότερα</a>
+                </div>
+                <div class="newspaper-card-container">
+                    <button class="button-link"><img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                    <div class="newspaper-card">
+                        <a class="button-link">
+                            <p>Έκδοση Οκτωμβρίου 2024</p>
+                            <img src="" alt="newspaper">
+                        </a>              
+                    </div>
+                    <div class="newspaper-card">
+                        <a class="button-link">
+                            <p>Έκδοση Οκτωμβρίου 2024</p>
+                            <img src="" alt="newspaper">
+                        </a>
+                    </div>
+                    <div class="newspaper-card">
+                        <a class="button-link">
+                            <p>Έκδοση Οκτωμβρίου 2024</p>
+                            <img src="" alt="newspaper">
+                        </a>
+                    </div>
+                    <button class="button-link"><img src="/Assets/Images/Chevron right.png" alt="arrow_left"></button>                     
+                </div>
+            </div>
+            <!--Article Section-->
+            <section id="article-section">
+                <div class="article-container">
+                    <p class="h2">Αρθρογραφία</p>
+                    <div class="article-nav">
+                        <a class="button-link">Κοινωνία</a>
+                        <a class="button-link">Επιστήμη</a>
+                        <a class="button-link">Περιβάλλον</a>
+                    </div>
+                    <div class="article-grid">
+                        <a class="button-link" class="article">
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                        </a>
+                        <a class="button-link" class="article">
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                        </a>
+                        <a class="button-link" class="article">
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                        </a>
+                        <a class="button-link" class="article">
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                        </a>
+                        <a class="button-link" class="article">
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                        </a>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+
+        <!--Newsletter-->
+        <div class="newsletter-container">
+            <div class="newsletter-text-container">
+                <p class="h4">Μην Μένεις Πίσω Στις Εξελίξεις !</p>
+                <p>Κάνε εγγραφή στο newsletter μας για να ενημερώνεσαι για θέματα που αφορούν την ομάδα και το τμήμα μας . </p>
+            </div>
+            <div class="newsletter-form-container">
+                <form>
+                    <input id="newsletter-input" type="email" placeholder="Email" name="email">
+                    <input class="newsletter-submit h6" type="submit" value="Υποβολή">
+                </form>
+            </div>
+        </div>
+        <!--CTO Join Our Team-->
+        <div class="join-team-container">
+            <p class="h3">Γίνε Μέλος Της Ομάδας Μας !</p>
+            <p class="h5">Γίνε Ένα Με Την Κοινότητα</p>
+            <div class="join-team-btn-container">
+                <a href="https://forms.gle/xwUJufLWUi8KFK6r8" class="button-link">Γίνε Μέλος !</a>
+                <a href="/Code/about.html" class="button-link">Μάθε Περισσότερα</a>
+            </div>
+        </div>
+        <!--End of The Page-->
+        <div class="end-page-container">
+            <div class="end-page-logo-container">
+                <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                <div class="logo-text small">ConcreteAuth</div>
+            </div>
+            <div class="end-page-social-media-container">
+                <a href="https://www.instagram.com/concreteauth/"><img src="/Assets/Icons/Instagram.png" alt="instagram"></a>
+                <a href="mailto:foitites@concreteauth.com"><img src="/Assets/Icons/Mail.png" alt="Mail"></a>
+            </div>
+            <a class="creative-commons small" href="https://creativecommons.org/licenses/by-nc/4.0/">@ConcreteAuth</a>
+        </div>
+
+    </footer>
+    <!--Loading Screen-->
+    <div class="screen">
+        <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png"> 
+    </div>
+</body>
+</html>

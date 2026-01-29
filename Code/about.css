@@ -1,0 +1,470 @@
+:root {
+    --primary: #7868a1 ;
+    --secondary: #7776B3;
+    --primary10Black: color-mix(in srgb,#7868A1,black 10% ); 
+    --primary20Black: color-mix(in srgb,#7868A1,black 20% ); 
+    --primary50Black: color-mix(in srgb,#7868A1,black 50% ); 
+    --primary80Black: color-mix(in srgb,#7868A1,black 80% ); 
+    --whiteout: rgb(248, 248, 248);
+    --alt: #F9ED59;
+    --darkGrey:#5A5761;
+    --lightGrey:#D9D9D9;
+    --error: #CB3E3E;
+}
+
+#alternative-nav-bar {
+    background-color: var(--primary50Black) !important;
+}
+
+/*Hero Section*/
+
+.about-hero-container {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1440px;
+
+    margin: 0  auto;
+    padding: 128px 64px 64px 64px;
+    color: var(--primary80Black);
+}
+
+.about-hero-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-hero-title-container p:nth-child(3) {
+
+    margin-top: 32px;
+
+    line-height: 50px;
+}
+
+.about-hero-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:4vw;
+
+    margin-top: 32px;
+}
+
+.about-hero-card {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: start;
+    gap: 32px;
+
+    width: min(40vw,700px);
+
+    padding: 32px;
+    
+
+    background-color: var(--primary10Black);
+    color: var(--whiteout);
+    box-shadow: 2px 2px 3px  var(--darkGrey);
+}
+
+.about-hero-card ol {
+    margin-left: 40px;
+    justify-self: start;
+}
+
+.about-hero-card a {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    padding: 0 0 10px 0;
+    
+    color: var(--whiteout);
+    border-bottom: 5px solid var(--alt);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.about-hero-card a img {
+    width: 32px;
+}
+
+/*Questions Section*/
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1440px;
+
+    margin: 0 auto;
+    padding: 64px;
+    padding-bottom: 128px;
+
+    color: var(--primary80Black);
+}
+
+.questions-team-container {
+    width: 100%;
+}
+
+.questions-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 5vw;
+
+    width: 100%;
+
+    margin-top: 64px;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+
+    width: 90%;
+
+    margin-bottom: 5vh;
+
+    color: white;
+    background-color: var(--primary10Black);
+}
+
+.question img {
+    width: 32px;
+}
+
+.answer {
+    margin: -20px 0 20px 0;
+    padding: 8px 16px;
+    width: 90%;
+
+}
+
+
+/*Learn More Section*/
+
+#learn-more-section {
+    padding: 64px;
+
+    background-color: var(--secondary);
+}
+
+.learn-more-container {
+    max-width: 1440px;
+
+    margin: 0 auto;
+}
+
+.learn-more-container p:nth-child(1) {
+    margin-bottom: 64px;
+} 
+
+.learn-more-container p {
+    margin-bottom: 32px;
+}
+
+.learn-more-container ol {
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+/*Large screens and Desktops*/
+@media (min-width:1025px) and (max-width:1440px) {
+
+    /*Hero Section*/
+
+    .about-hero-container {
+        display: flex;
+        flex-direction: column;
+    
+        max-width: none;
+    
+        margin: 0;
+        padding: 128px 64px 64px 64px;
+    }
+    
+
+    /*Questions Section*/
+
+    .questions-container {
+        display: flex;
+        flex-direction: column;
+    
+        max-width: none;
+    
+        margin: 0;
+        padding: 64px;
+        padding-bottom: 128px;
+    }
+    
+    
+    .questions-content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    
+        width: 70%;
+    
+        margin-top: 64px;
+    }
+
+    /*Learn More Section*/
+
+
+    .learn-more-container {
+        max-width: none;
+    
+        margin: 0 ;
+    }
+}
+
+    /*Laptops and Small Screens*/
+
+    @media (min-width:769px) and (max-width: 1024px) {
+
+        /*Hero Section*/
+
+        .about-hero-container {
+            display: flex;
+            flex-direction: column;
+        
+            max-width: none;
+        
+            margin: 0;
+            padding: 150px 64px 64px 64px;
+        }
+
+        .about-hero-title-container p:nth-child(3) {
+            margin-top: 32px;
+            line-height: 30px;
+        }
+        
+        .about-hero-card-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap:0.5vh;
+        }
+
+        .about-hero-card {
+            width: 100%;
+        
+            padding: 32px;
+            margin-top: 64px;
+        
+            background-color: var(--primary10Black);
+            color: var(--whiteout);
+            box-shadow: 2px 2px 3px  var(--darkGrey);
+        }
+
+        .about-hero-card ol {
+            margin-left: 40px;
+            
+        }
+    
+        /*Questions Section*/
+    
+        .questions-container {
+            display: flex;
+            flex-direction: column;
+        
+            max-width: none;
+        
+            margin: 0;
+            padding: 64px;
+            padding-bottom: 128px;
+        }
+        
+        
+        .questions-content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5vw;
+        
+            width: 100%;
+        
+            margin-top: 64px;
+        }
+        /*Learn More Section*/
+
+        .learn-more-container {
+            max-width: none;
+        
+            margin: 0 ;
+        }
+
+        
+    }
+    
+    /*iPads and Tablets*/
+    @media (min-width:481px) and (max-width:768px) {
+        
+        /*Hero Section*/
+
+        .about-hero-container {
+            display: flex;
+            flex-direction: column;
+        
+            max-width: none;
+        
+            margin: 0;
+            padding: 128px 32px 32px 32px;
+        }
+
+        .about-hero-title-container p:nth-child(3) {
+            margin-top: 32px;
+            line-height: 30px;
+        }
+        
+        .about-hero-card-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap:0.5vh;
+        }
+
+        .about-hero-card {
+            width: 80%;
+        
+            padding: 32px;
+            margin-top: 32px;
+        
+        }
+
+        .about-hero-card ol {
+            margin-left: 20px;
+            
+        }
+
+        /*Questions Section*/
+
+        .questions-container {
+            display: flex;
+            flex-direction: column;
+        
+            max-width: none;
+
+            margin: 0;
+            padding: 32px;
+            padding-bottom: 32x;
+        }
+        
+        
+        .questions-content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5vw;
+        
+            width: 100%;
+        
+            margin-top: 32px;
+        
+        }
+
+        /*Learn More Section*/
+
+        #learn-more-section {
+            padding: 32px;
+        }
+        
+        .learn-more-container {
+            max-width: none;
+        
+            margin: 0 ;
+        }
+
+    }
+
+    /*Mobile Devices*/
+
+    @media (min-width:320px) and (max-width:480px) {
+
+        /*Hero Section*/
+
+        .about-hero-container {
+            display: flex;
+            flex-direction: column;
+        
+            max-width: none;
+        
+            margin: 0;
+            padding: 128px 16px 16px 16px;
+        }
+
+        .about-hero-title-container p:nth-child(3) {
+            margin-top: 32px;
+            line-height: 30px;
+        }
+        
+        .about-hero-card-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap:0.5vh;
+        }
+
+        .about-hero-card {
+            width: 75%;
+        
+            padding: 32px;
+            margin-top: 32px;
+        
+        }
+
+        .about-hero-card ol {
+            margin-left: 20px;
+            
+        }
+
+        /*Questions Section*/
+
+        .questions-container {
+            display: flex;
+            flex-direction: column;
+        
+            max-width: none;
+
+            margin: 0;
+            padding: 32px;
+            padding-bottom: 32x;
+        }
+        
+        
+        .questions-content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5vw;
+        
+            width: 100%;
+        
+            margin-top: 32px;
+        
+        }
+
+        /*Learn More Section*/
+
+        #learn-more-section {
+            padding: 32px;
+        }
+        
+        .learn-more-container {
+            max-width: none;
+        
+            margin: 0 ;
+        }
+    }
+
+    
+    

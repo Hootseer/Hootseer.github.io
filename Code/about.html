@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcreteAuth</title>
+
+    <link rel="icon" type="image/x-icon" href="/Assets/Images/ConcreteAuth Logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <link href="/Code/general.css" rel="stylesheet">
+    <link href="/Code/about.css" rel="stylesheet">
+    <script src="/Code/about.js"></script>
+    <script src="/Code/general.js"></script>
+</head>
+<body>
+
+    <!--Header Navigation Bar-->
+    <header>
+        <nav style="background-color:var(--primary50Black)">
+            <div class="nav-container">
+                <a href="/index.html" class="logo-container">
+                    <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                    <div class="logo-text">ConcreteAuth</div>
+                </a>
+                <div class="nav-menu">
+                  <a href="/Code/about.html" class="small">Σχετικά</a>
+                  <a href="/Code/actions.html" class="small">Δράσεις</a>
+                  <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                  <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                  <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+                </div>
+            </div>
+        </nav>
+        <div id="alternative-nav-bar">
+            <div class="alt-nav-bar-container">
+                <button onclick="toggleNavMenu()"><img src="/Assets/Icons/Menu.png" alt="alt-menu"></button>
+                <div class="alternative-nav-menu non-visible">
+                    <a href="/Code/about.html" class="small">Σχετικά</a>
+                    <a href="/Code/actions.html" class="small">Δράσεις</a>
+                    <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                    <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                </div>
+                <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+            </div>
+        </div>
+    </header>
+    <!--Main Section-->
+    <main>
+        <div class="main-container">
+            <!--About Hero Section-->
+            <section id="about-hero-section">
+                <div class="about-hero-container">
+                    <div class="about-hero-title-container">
+                        <p>Σχετικά Με Εμάς</p>
+                        <p class="h1">Ποιοί Είμαστε </p>
+                        <p>Το ConcreteAuth είναι μια φοιτητική, μη κερδοσκοπική ομάδα βασισμένη στο τμήμα Πολιτικών Μηχανικών ΑΠΘ που επικεντρώνεται στην οργάνωση δράσεων που πλαισιώσουν τις ανάγκες και τις φιλοδοξίες των φοιτητών .
+                           <br>Η οργάνωση της ομάδας γίνεται αποκλειστικά από τα μέλη της παρόλα αυτά η συνεισφορά σε αυτήν είναι ανοιχτή για όλους τους φοιτητές που θέλουν να προσφέρουν στην ακαδημαϊκή κοινότητα, χωρίς απαραίτητα να είναι Μέλη.
+                        </p>
+                    </div>
+                    <div class="about-hero-card-container">
+                        <div class="about-hero-card">
+                            <p class="h4">Το Όραμα Μας</p>
+                            <p>
+                                Η ομάδα μας φιλοδοξεί μέσα απο την δράση της να απευθυνθεί στο σύνολο των 
+                                φοιτητών του τμήματος με σκοπό να διαμορφώσει τις κατάλληλες συνθήκες που 
+                                θα ευνοήσουν στην συγκρότηση μιας κοινότητας . Μιας κοινότητας , αλληλέγγυας 
+                                , συλλογικής , συμπεριληπτικής και κοινωνικά ενεργής .    
+                            </p>
+                            <a href="#learn-more-section" class="button-link">Περισσότερα<img src="/Assets/Images/Chevron right.png" alt="arrow_right"></a>
+                        </div>
+                        <div class="about-hero-card">
+                            <p class="h4">Οι Αξίες Μας</p>
+                            <ol>
+                                <li>Ανοιχτή και ελεύθερη πληροφορία και γνώση .</li>
+                                <li>Υποστήριξη της φοιτητικής κοινότητας .</li>
+                                <li>Ισότητα και ελευθερία λόγου .</li>
+                                <li>Ανοιχτές και εποικοδομητικές συζητήσεις .</li>
+                                <li>Μη-πολιτική δράση .</li>
+                            </ol>
+                            <a href="#learn-more-section" class="button-link">Περισσότερα<img src="/Assets/Images/Chevron right.png" alt="arrow_right"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Questions Section-->
+            <section id="questions-section">
+                <div class="questions-container">
+                    <p class="h2">Συχνές Ερωτήσεις</p>
+                    <div class="questions-content-container">
+                        <div class="questions-team-container">
+                            <button class="question question1 button-link" onclick="toggleQ(1)">Ποιές είναι οι δράσεις της ομάδας ;<img src="/Assets/Images/Chevron left.png" alt="arrow-left"></button>
+                            <div class="answer answer1 non-visible">
+                                Δημιουργία Βιβλιοθήκης Σημειώσεων , Φοιτητική Εφημερίδα , Φωτογραφικό Αρχείο , 
+                                Οργάνωση Ομάδων Ερευνητικού ή Διδακτικού Χαρακτήρα , Οργάνωση Εκδηλώσεων , Συμμετοχή σε Διαγωνισμούς
+                            </div>
+                            <button class="question question2 button-link" onclick="toggleQ(2)">Ποιά είναι τα μέλη της ομάδας ;<img src="/Assets/Images/Chevron left.png" alt="arrow-left"></button>
+                            <div class="answer answer2 non-visible">
+                                Τα μέλη της ομάδας , τα οποία είναι υπεύθυνα για την οργάνωση της , είναι ενεργοί φοιτητές κυρίως 
+                                απο το τμήμα πολιτικών μηχανικών ΑΠΘ . 
+                            </div>
+                        </div>
+                        <div class="questions-team-container">
+                            <button class="question question3 button-link" onclick="toggleQ(3)">Πώς μπορώ να συμβάλλω στην κοινότητα ;<img src="/Assets/Images/Chevron left.png" alt="arrow-left"></button>
+                            <div class="answer answer3 non-visible">
+                                Ο καλύτερος τρόπος για να συμβάλλεις στην φοιτητική κοινότητα είναι μέσω απο την Ομάδα μας !
+                                Είτε είσαι μέλος αυτής είτε όχι . Η συμμετοχή στην ομάδα είναι ανοικτή σε οποιονδήποτε επιθυμεί 
+                                να συμβάλλει στην κοινότητα . 
+                            </div>
+                            <button class="question question4 button-link" onclick="toggleQ(4)">Πώς μπορώ να μπώ στην ομάδα ;<img src="/Assets/Images/Chevron left.png"></button>
+                            <div class="answer answer4 non-visible">
+                                Αν ενδιαφέρεσαι να οργανώσεις τις επόμενες δράσεις της ομάδας και να συμβάλλεις στην ανάπτυξη της , 
+                                μπορείς να συμπληρώσεις την φόρμα ενδιαφέροντος ή να έρθεις σε επαφή με κάποιο μέλος της ομάδας !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Learn More Section-->
+            <section id="learn-more-section">
+                <div class="learn-more-container">
+                    <p class="h2">Περισσότερα Για Εμάς</p>
+                    <p class="h4">Η Κεντρική Ιδέα Της Ομάδας</p>
+                    <p>
+                        Το ConcreteAuth είναι μια φοιτητική, μη κερδοσκοπική ομάδα βασισμένη στο τμήμα Πολιτικών Μηχανικών ΑΠΘ που 
+                        επικεντρώνεται στην οργάνωση δράσεων που πλαισιώσουν τις ανάγκες και τις φιλοδοξίες των φοιτητών υπό μια μη
+                        κομματική αρχή. Η οργάνωση της ομάδας γίνεται αποκλειστικά από τα μέλη της παρόλα αυτά η συνεισφορά σε αυτήν
+                        είναι ανοιχτή για όλους τους φοιτητές που θέλουν να προσφέρουν στην ακαδημαϊκή κοινότητα, χωρίς απαραίτητα να
+                        είναι Μέλη.
+                    </p>
+                    <p class="h4">Η Ιδεολογική Ταυτότητα της Ομάδας</p>
+                    <p>
+                        Η ομάδα του ConcreteAuth ακολουθεί μια συγκεκριμένη ιδεολογία που ευθυγραμμίζεται απόλυτα με τις ανάγκες και τις
+                        φιλοδοξίες των φοιτητών. Κατανοώντας την ευθύνη που φέρει το εγχείρημα αυτό η ομάδα μας δεσμεύεται να διαφυλάσσει
+                        και να στηρίζει τις αρχικές αξίες υπό τις οποίες δημιουργήθηκε και αναδείχθηκε. Οι εν λόγω αξίες είναι οι εξής : 
+                    </p>
+                    <ol>
+                        <li>Ανοιχτή και ελεύθερη πληροφορία και γνώση</li>
+                        <li>Υποστήριξη της φοιτητικής κοινότητας </li>
+                        <li>Ισότητα και ελευθερία λόγου μεταξύ των μελών που την πλαισιώνουν</li>
+                        <li>Ανοιχτές και εποικοδομητικές συζητήσεις</li>
+                        <li>Μη-κομματική δράση</li>
+                    </ol>
+                    <p class="h4">Το Μέλλον της Ομάδας</p>
+                    <p>
+                        Η ομάδα φιλοδοξεί να συνεχίσει την δράση της για πολλά ακόμη έτη διατηρώντας αμετάβλητο τον χαρακτήρα της, ανεξάρτητα
+                        από το εκλεγμένο διοικητικό σώμα. Αυτό εξασφαλίζεται με την συμμετοχή όλων των φοιτητών στο εγχείρημα αυτό. Παρόλο
+                        που η αρχή της προσπάθειας έγινε, δεν έχουν αναπτυχθεί οι δυνατότητες του εγχειρήματος, ούτε στο ελάχιστο. Στο άμεσο
+                        μέλλον στοχεύουμε και φιλοδοξούμε να οργανώσουμε ακόμη περισσότερες δράσεις που θα έχουν ξεκάθαρο στόχο: την καλλιέργεια
+                        της συλλογικότητας, της αλληλεγγύης και την μεγιστοποίηση της συμμετοχής των φοιτητών στα θέματα που μας αφορούν.
+                        Η προσπάθεια αυτή δεν σταματά ποτέ και δεν υπάρχει κάποιο σημείο πέρα του οποίου θεωρείται ολοκληρωμένη.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+        <!--Newsletter-->
+        <div class="newsletter-container">
+            <div class="newsletter-text-container">
+                <p class="h4">Μην Μένεις Πίσω Στις Εξελίξεις !</p>
+                <p>Κάνε εγγραφή στο newsletter μας για να ενημερώνεσαι για θέματα που αφορούν την ομάδα και το τμήμα μας . </p>
+            </div>
+            <div class="newsletter-form-container">
+                <form>
+                    <input id="newsletter-input" type="email" placeholder="Email" name="email">
+                    <input class="newsletter-submit h6" type="submit" value="Υποβολή">
+                </form>
+            </div>
+        </div>
+        <!--CTO Join Our Team-->
+        <div class="join-team-container">
+            <p class="h3">Γίνε Μέλος Της Ομάδας Μας !</p>
+            <p class="h5">Γίνε Ένα Με Την Κοινότητα</p>
+            <div class="join-team-btn-container">
+                <a href="https://forms.gle/xwUJufLWUi8KFK6r8" class="button-link">Γίνε Μέλος !</a>
+                <a href="/Code/about.html" class="button-link">Μάθε Περισσότερα</a>
+            </div>
+        </div>
+        <!--End of The Page-->
+        <div class="end-page-container">
+            <div class="end-page-logo-container">
+                <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                <div class="logo-text small">ConcreteAuth</div>
+            </div>
+            <div class="end-page-social-media-container">
+                <a href="https://www.instagram.com/concreteauth/"><img src="/Assets/Icons/Instagram.png" alt="instagram"></a>
+                <a href="mailto:foitites@concreteauth.com"><img src="/Assets/Icons/Mail.png" alt="Mail"></a>
+            </div>
+            <a class="creative-commons small" href="https://creativecommons.org/licenses/by-nc/4.0/">@ConcreteAuth</a>
+        </div>
+
+    </footer>
+    <!--Loading Screen-->
+    <div class="screen">
+        <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png"> 
+    </div>
+</body>
+</html>
+
+
+         
+
+    
+

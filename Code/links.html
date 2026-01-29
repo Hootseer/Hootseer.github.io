@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcreteAuth</title>
+
+    <link rel="icon" type="image/x-icon" href="/Assets/Images/ConcreteAuth Logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <link href="/Code/general.css" rel="stylesheet">
+    <link href="/Code/links.css" rel="stylesheet">
+    <script src="/Code/general.js"></script>
+</head>
+<body>
+
+    <!--Header Navigation Bar-->
+    <header>
+        <nav style="background-color:var(--primary50Black)">
+            <div class="nav-container">
+                <a href="/index.html" class="logo-container">
+                    <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                    <div class="logo-text">ConcreteAuth</div>
+                </a>
+                <div class="nav-menu">
+                  <a href="/Code/about.html" class="small">Σχετικά</a>
+                  <a href="/Code/actions.html" class="small">Δράσεις</a>
+                  <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                  <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                  <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+                </div>
+            </div>
+        </nav>
+        <div id="alternative-nav-bar">
+            <div class="alt-nav-bar-container">
+                <button onclick="toggleNavMenu()"><img src="/Assets/Icons/Menu.png" alt="alt-menu"></button>
+                <div class="alternative-nav-menu non-visible">
+                    <a href="/Code/about.html" class="small">Σχετικά</a>
+                    <a href="/Code/actions.html" class="small">Δράσεις</a>
+                    <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                    <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                </div>
+                <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+            </div>
+        </div>
+    </header>
+    <!--Main Section-->
+    <main>
+        <div class="main-container">
+            <!--Links Hero Section-->
+            <section id="links-hero-section">
+                <div class="links-hero-container">
+                    <div class="links-hero-title-container">
+                        <p class="h1">Χρήσιμοι Σύνδεσμοι</p>
+                        <p>Εδώ θα βρείς μια λίστα απο χρήσιμους συνδέσμους που αφορούν την σχολή , την επιστήμη του πολιτικού μηχανικού και την πόλη της Θεσσαλονίκης !</p>
+                    </div>
+                    <button class="button-link">Στείλε Μας Κάποιο Σύνδεσμο !</button>
+                </div>
+                
+            </section>
+            <!--Links-->
+            <section id="links-section">
+                <div class="links-container">
+                    <div class="links-left-container">
+                        <p class="h6">Πολιτικών Μηχανικών ΑΠΘ</p>
+                        <a href="https://www.civil.auth.gr/">Ιστοσελίδα Σχολής</a>
+                        <a href="https://www.civil.auth.gr/images/files/proptixiaka/progdid/2024/Fall_Semester_Courses_Schedule_GR-v4.pdf">Πρόγραμμα Τρέχοντος Εξαμήνου</a>
+                        <a href="https://www.civil.auth.gr/to-tmima/grammatia.html">Γραμματεία Σχολής</a>
+                        <a href="https://www.civil.auth.gr/images/files/proptixiaka/%CE%9D%CE%AD%CE%BF_%CE%A0%CE%A0%CE%A3_%CE%99%CF%83%CF%84%CE%BF%CF%83%CE%B5%CE%BB%CE%AF%CE%B4%CE%B1.pdf">Πρόγραμμα Σπουδών</a>
+                        <a href="https://www.civil.auth.gr/images/files/proptixiaka/progdid/clasrooms.pdf">Αίθουσες Διδασκαλίας</a>
+                    </div>
+                    <div class="links-right-container">
+                        <p class="h6">Επιστήμη Πολιτικού Μηχανικού</p>
+                        <a href="https://www.youtube.com/@ecobuildersgr">ECOBUILDERS - Η Επιστήμη της Δόμησης</a>
+                        <a href="https://www.youtube.com/@3drengineeringsoftware/videos">3DR Engineering Software</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+        <!--Newsletter-->
+        <div class="newsletter-container">
+            <div class="newsletter-text-container">
+                <p class="h4">Μην Μένεις Πίσω Στις Εξελίξεις !</p>
+                <p>Κάνε εγγραφή στο newsletter μας για να ενημερώνεσαι για θέματα που αφορούν την ομάδα και το τμήμα μας . </p>
+            </div>
+            <div class="newsletter-form-container">
+                <form>
+                    <input id="newsletter-input" type="email" placeholder="Email" name="email">
+                    <input class="newsletter-submit h6" type="submit" value="Υποβολή">
+                </form>
+            </div>
+        </div>
+        <!--CTO Join Our Team-->
+        <div class="join-team-container">
+            <p class="h3">Γίνε Μέλος Της Ομάδας Μας !</p>
+            <p class="h5">Γίνε Ένα Με Την Κοινότητα</p>
+            <div class="join-team-btn-container">
+                <a href="https://forms.gle/xwUJufLWUi8KFK6r8" class="button-link">Γίνε Μέλος !</a>
+                <a href="/Code/about.html" class="button-link">Μάθε Περισσότερα</a>
+            </div>
+        </div>
+        <!--End of The Page-->
+        <div class="end-page-container">
+            <div class="end-page-logo-container">
+                <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                <div class="logo-text small">ConcreteAuth</div>
+            </div>
+            <div class="end-page-social-media-container">
+                <a href="https://www.instagram.com/concreteauth/"><img src="/Assets/Icons/Instagram.png" alt="instagram"></a>
+                <a href="mailto:foitites@concreteauth.com"><img src="/Assets/Icons/Mail.png" alt="Mail"></a>
+            </div>
+            <a class="creative-commons small" href="https://creativecommons.org/licenses/by-nc/4.0/">@ConcreteAuth</a>
+        </div>
+
+    </footer>
+    <!--Loading Screen-->
+    <div class="screen">
+        <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png"> 
+    </div>
+</body>
+</html>

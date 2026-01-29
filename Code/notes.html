@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcreteAuth</title>
+
+    <link rel="icon" type="image/x-icon" href="/Assets/Images/ConcreteAuth Logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <link href="/Code/general.css" rel="stylesheet">
+    <link href="/Code/notes.css" rel="stylesheet">
+    <script src="/Code/notes.js"></script>
+    <script src="/Code/general.js"></script>
+</head>
+<body>
+
+    <!--Header Navigation Bar-->
+    <header>
+        <nav style="background-color:var(--primary50Black)">
+            <div class="nav-container">
+                <a href="/index.html" class="logo-container">
+                    <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                    <div class="logo-text">ConcreteAuth</div>
+                </a>
+                <div class="nav-menu">
+                  <a href="/Code/about.html" class="small">Σχετικά</a>
+                  <a href="/Code/actions.html" class="small">Δράσεις</a>
+                  <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                  <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                  <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+                </div>
+            </div>
+        </nav>
+        <div id="alternative-nav-bar">
+            <div class="alt-nav-bar-container">
+                <button onclick="toggleNavMenu()"><img src="/Assets/Icons/Menu.png" alt="alt-menu"></button>
+                <div class="alternative-nav-menu non-visible">
+                    <a href="/Code/about.html" class="small">Σχετικά</a>
+                    <a href="/Code/actions.html" class="small">Δράσεις</a>
+                    <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                    <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                </div>
+                <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+            </div>
+        </div>
+    </header>
+    <!--Main Section-->
+    <main>
+        <div class="main-container">
+            <!--Notes Hero Section-->
+            <section id="notes-hero-section">
+                <div class="notes-hero-container">
+                    <div class="notes-hero-title-container">
+                        <p class="h1">Σημειώσεις</p>
+                        <p>Στείλε μας τις σημειώσεις σου και μοιράσου τες με τους συμφοιτητές σου !</p>
+                    </div>
+                    <button class="button-link">Ανέβασε Εδώ !</button>
+                </div>
+                
+            </section>
+            <!--Notes-->
+            <section id="notes-section">
+                <div class="notes-container">
+                    <div class="notes-left-container">
+                        <button class="button-link note-button1" onclick="OnOfList(1)">1ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list1 non-visible">
+                            <li><a href="https://drive.google.com/drive/folders/1pg1xIAlwE9F9RjgBoYwaz9fYtw1MSha9?usp=drive_link">Μαθηματικά Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/19HsjmM15cbRXoAOHCWxNeBxXWIca0H2I?usp=drive_link">Προγραμματισμός Υ/Η</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1EbzWNeQ8O8zWCKFitKwnXTMfvboP9Hge?usp=drive_link">Τεχνικές Σχεδιάσεις Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1UaE4oLtiBsAmBtAQSKmuWje8Q0ybjN1b?usp=drive_link">Τεχνική Μιχανική Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1uWMy-dS5zQstfcr24IZ7p1aEFOdLesGH?usp=drive_link">Δομικά Υλικά Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1lFvoy2ulQP_2Rl0ssACVDIY1_2_mXOu_?usp=drive_link">Γεωδαισία Ι</a></li>
+                        </ul>              
+                        <button class="button-link note-button2" onclick="OnOfList(2)">2ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list2 non-visible">
+                            <li><a href="https://drive.google.com/drive/folders/1182-HNqvn9b-LI_2IcYnEnP0NWjzTCJr?usp=drive_link">Μαθηματικά ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1Bo5HxOLhSNHNrwshGARLOaL0DpusHkZV?usp=drive_link">Αριθμητική Ανάλυση</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1mpX0NHVwigyHyZ8Dv3ZQ8mtdfHTqXbFl?usp=drive_link">Στατιστική</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1Homqoa-wn7WSK8TPXkQTyoBL1nfbDUe4?usp=drive_link">Τεχνικές Σχεδιάσεις ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1LKJaXfD3B9HIn99wCN_YOhmwH9kWb5qB?usp=drive_link">Γεωδαισία ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1KTwJ0ZAytRxbh1VWx6Xr5LygS9aA-VMS?usp=drive_link">Δομικά Υλικά ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1s9usf7PwenwB4eDAW1mqUTDOyw9KTwou?usp=drive_link">Αντοχή Υλικών & Δομικών Στοιχείων Ι</a></li>
+                        </ul>
+                        <button class="button-link note-button3" onclick="OnOfList(3)">3ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list3 non-visible">
+                            <li><a href="https://drive.google.com/drive/folders/1iBkctPTAFNEfWE6bpEgs6w9LutzN2tFp?usp=drive_link">Μαθηματικά ΙII</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1oPuSh0Ukc4XyIfkBverTlCws0l4czG2x?usp=drive_link">Μηχανική Ρευστών</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1v-5XViGoAEa8xYWi_kUT9M_2wIgGjI74?usp=drive_link">Αντοχή Υλικών και Δομικών Στοιχείων ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1-0-xcn7TnHffbWqhDAWQRPZY4TrJeydQ?usp=drive_link">Εργοτάξια Δομικές Μηχανές</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1Cb63b09CtAOXWSFSfrzCLf2P7C76SuqF?usp=drive_link">Οικοδομική Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1fUzMH1rlgTiz5uAN4mbi4ESA6vp1PW1W?usp=drive_link">Τεχνική Γεωλογία</a></li>
+                        </ul>
+                        <button class="button-link note-button4" onclick="OnOfList(4)">4ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list4 non-visible">
+                            <li><a href="https://drive.google.com/drive/folders/1IQoiqr-7-vsu0Ox3-uhn5Kn-eN-1aOgS?usp=drive_link">Εφαρμοσμένη Στατική των Ισοστατικών Φορέων</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1IaBJ6g1EErMEaE_3hjkuqy5bXlXGnnfw?usp=drive_link">Οικοδομική II</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/15_RpY63mZC9QaPkhpbYYkTdGQSf-PpQn?usp=drive_link">Υδραυλική</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1agcrB1bdp78Lbthmfx4KQITcjyjc2kjU?usp=drive_link">Επιφανειακή και Υπόγεια Υδρολογία</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1Bf9TX62992yYJThT5i3Lv084FaBATSFu?usp=drive_link">Οδοποιία Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1X590OMxr7MejEthCZJYldlrUqPQdRmyx?usp=drive_link">Συγκοινωνιακή Τεχνική</a></li>
+                        </ul>
+                        <button class="button-link note-button5" onclick="OnOfList(5)">5ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list5 non-visible">
+                            <li><a href="https://drive.google.com/drive/folders/1jtYAkalNmDkd9RRrx1JDHEWeLGHjhT0h?usp=drive_link">Υδρεύσεις Αποχετεύσεις</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1bKxMnQf-wO6ErwANLi_TQHHFEMZPoQaj?usp=drive_link">Εφαρμοσμένη Στατική Υπερστατικών Φορέων</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/13DPA15A_qM3mqD6gbaNt8cf4RJnujb01?usp=drive_link">Σιδηροπαγές Σκυρόδεμα Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1ZJMJsUUnH1q4tA2Ceq1ccwy-T4NUiR5X?usp=drive_link">Εδαφομηχανική Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1RosEwzOyO-2JKB6JrFs_UrwIHqqUM58n?usp=drive_link">Οδοποιία ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1RIojBjtBVCpxJnf8gfstJL6FLs57P91L?usp=drive_link">Σχεδιασμός Μεταφορών</a></li>
+                        </ul>
+                    </div>
+                    <div class="notes-right-container">
+                        <button class="button-link note-button6" onclick="OnOfList(6)">6ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list6 non-visible">
+                            <li><a href="https://drive.google.com/drive/folders/1T8WlmLvF4iZRhRpv_V00qrubZVAj6Smt?usp=drive_link">Αριθμητικές Μέθοδοι Ανάλυσης Έργων Πολιτικού Μηχανικού</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/13_x0acisS9mJRhkDugY5Nq0dhY_qOoc9?usp=drive_link">Σιδηροπαγές Σκυρόδεμα ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1BGpa6iAsvtl_TRhGibMsfGexo_5NBJfn?usp=drive_link">Χαλύβδινες Κατασκευές Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1z-HB9Pi17f3W14XCt-iHqfIbJo5KfRLH?usp=drive_link">Εδαφομηχανική ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1wzVFDUlOlD-lJO-BGmFawzIkJeMcpURW?usp=drive_link">Περιβαλλοντική Μηχανική</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1oBOUZZSsafVgg2Erwa3mSSzyDYnMcB0l?usp=drive_link">Διαχείριση Έργων</a></li>
+                        </ul>
+                        <button class="button-link note-button7" onclick="OnOfList(7)">7ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list7 non-visible">
+                            <li><a href="https://drive.google.com/drive/folders/1VQzEoq84yV0THDH0ETJTaqTjlxelTVO0?usp=drive_link">Δυναμική των Κατασκευών Ι</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1RtRXTkgLxBGIwmQzmcc79Jo4DekeZEwm?usp=drive_link">Σιδηροπαγές Σκυρόδεμα ΙΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1GzuKVnUfPpdocOM5nBx8S_YQ2848K9Tq?usp=drive_link">Χαλύβδινες Κατασκευές ΙΙ</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1NO4qSo9-I5IlamUcFlC_CMeg3V9PFl_q?usp=drive_link">Θεμελιώσεις, Αντιστηρίξεις & Γεωτεχνικά Έργα</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1dnqTZPiEoAEeOS72viH0L3vACt_rFFcx?usp=drive_link">Οργάνωση και Προγραμματισμός Έργων</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1hgvxE0phSfMKdVofE1KOsmsIeRxUU8kR?usp=drive_link">Ακτομηχανική & Λιμενικά Έργα</a></li>
+                        </ul>
+                        <button class="button-link note-button8" onclick="OnOfList(8)">8ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list8 non-visible">
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                        <button class="button-link note-button9" onclick="OnOfList(9)">9ο Εξάμηνο<img src="/Assets/Images/Chevron left.png" alt="arrow_left"></button>
+                        <ul class="note-list note-list9 non-visible">
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+        <!--Newsletter-->
+        <div class="newsletter-container">
+            <div class="newsletter-text-container">
+                <p class="h4">Μην Μένεις Πίσω Στις Εξελίξεις !</p>
+                <p>Κάνε εγγραφή στο newsletter μας για να ενημερώνεσαι για θέματα που αφορούν την ομάδα και το τμήμα μας . </p>
+            </div>
+            <div class="newsletter-form-container">
+                <form>
+                    <input id="newsletter-input" type="email" placeholder="Email" name="email">
+                    <input class="newsletter-submit h6" type="submit" value="Υποβολή">
+                </form>
+            </div>
+        </div>
+        <!--CTO Join Our Team-->
+        <div class="join-team-container">
+            <p class="h3">Γίνε Μέλος Της Ομάδας Μας !</p>
+            <p class="h5">Γίνε Ένα Με Την Κοινότητα</p>
+            <div class="join-team-btn-container">
+                <a href="https://forms.gle/xwUJufLWUi8KFK6r8" class="button-link">Γίνε Μέλος !</a>
+                <a href="/Code/about.html" class="button-link">Μάθε Περισσότερα</a>
+            </div>
+        </div>
+        <!--End of The Page-->
+        <div class="end-page-container">
+            <div class="end-page-logo-container">
+                <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                <div class="logo-text small">ConcreteAuth</div>
+            </div>
+            <div class="end-page-social-media-container">
+                <a href="https://www.instagram.com/concreteauth/"><img src="/Assets/Icons/Instagram.png" alt="instagram"></a>
+                <a href="mailto:foitites@concreteauth.com"><img src="/Assets/Icons/Mail.png" alt="Mail"></a>
+            </div>
+            <a class="creative-commons small" href="https://creativecommons.org/licenses/by-nc/4.0/">@ConcreteAuth</a>
+        </div>
+
+    </footer>
+    <!--Loading Screen-->
+    <div class="screen">
+        <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png"> 
+    </div>
+</body>
+</html>

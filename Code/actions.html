@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcreteAuth</title>
+
+    <link rel="icon" type="image/x-icon" href="/Assets/Images/ConcreteAuth Logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <link href="/Code/general.css" rel="stylesheet">
+    <link href="/Code/actions.css" rel="stylesheet">
+    <script src="/Code/general.js"></script>
+</head>
+<body>
+
+    <!--Header Navigation Bar-->
+    <header>
+        <nav style="background-color:var(--primary50Black)">
+            <div class="nav-container">
+                <a href="/index.html" class="logo-container">
+                    <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                    <div class="logo-text">ConcreteAuth</div>
+                </a>
+                <div class="nav-menu">
+                  <a href="/Code/about.html" class="small">Σχετικά</a>
+                  <a href="/Code/actions.html" class="small">Δράσεις</a>
+                  <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                  <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                  <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+                </div>
+            </div>
+        </nav>
+        <div id="alternative-nav-bar">
+            <div class="alt-nav-bar-container">
+                <button onclick="toggleNavMenu()"><img src="/Assets/Icons/Menu.png" alt="alt-menu"></button>
+                <div class="alternative-nav-menu non-visible">
+                    <a href="/Code/about.html" class="small">Σχετικά</a>
+                    <a href="/Code/actions.html" class="small">Δράσεις</a>
+                    <a href="/Code/newspaper.html" class="small">Εφημερίδα</a>
+                    <a href="/Code/bookself.html" class="small">Βιβλιοθήκη</a>
+                </div>
+                <a href="https://linktr.ee/concreteauth" class="small button-link">Επικοινωνία</a>
+            </div>
+        </div>
+    </header>
+    <!--Main Section-->
+    <main>
+        <div class="main-container">
+            <!--Actions-Hero-Section-->
+            <section id="actions-hero-section">
+                <div class="actions-hero-container">
+                    <p>Καλως Όρισες Στο ConcreteAuth</p>
+                    <p class="h1">Οι Δράσεις Μας</p>
+                    <p>
+                        Κάθε δράση της ομάδας είναι αναγκαίο και απαραίτητο να αντανακλά τον χαρακτήρα της. Για αυτό τον λόγο οι δράσεις του
+                        ConcreteAuth εστιάζουν στην συλλογικότητα και στην αλληλεγγύη μεταξύ των φοιτητών με κύριο στόχο την υγιή κοινωνικοποίηση
+                        των φοιτητών .
+                    </p>
+                    <div class="actions-card-container">
+                        <div class="actions-card">
+                            <p>Φόρουμ Συζήτησης και Ενημέρωση</p>
+                            <p class="small">
+                                Ενημερώσου για θέματα που αφορούν την σχολή και την ομάδα απο τον λογαριασμό instagram του ConcreteAuth ! <br>
+                                Συζήτησε και αντάλλαξε απόψεις με τους συμφοιτητές μέσω της πλατφόρμας Discord . 
+                            </p>
+                            <a href="https://linktr.ee/concreteauth" class="button-link">Περισσότερα<img src="/Assets/Images/Chevron right.png" alt="arrow_right"></a>
+                        </div>
+                        <div class="actions-card">
+                            <p>Φοιτητική Εφημερίδα</p>
+                            <p class="small">
+                                Η Φοιτητική Εφημερίδα του ConcreteAuth φιλοξενεί πληθώρα άρθρων και οπτικού υλικού . <br>
+                                Η θεματολογία της καλύπτει θέματα που
+                                αφορούν την κοινωνία , την επιστήμη , την ψυχαγωγία και το περιβάλλον .  
+                            </p>
+                            <a href="/Code/newspaper.html" class="button-link">Περισσότερα<img src="/Assets/Images/Chevron right.png" alt="arrow_right"></a>
+                        </div>
+                        <div class="actions-card">
+                            <p>Ηλεκτρονική Βιβλιοθήκη</p>
+                            <p class="small">
+                                Η Ηλεκτρονική Βιβλιοθήκη περιέχει πλήθος βοηθητικού υλικού, όπως σημειώσεις και προτεινόμενα συγγράματα αλλά και ενημερώσεις
+                                και πληροφορίες σχετικά με την σχολή .    
+                            </p>
+                            <a href="/Code/bookself.html" class="button-link">Περισσότερα<img src="/Assets/Images/Chevron right.png" alt="arrow_right"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Vision Section-->
+            <section id="vision-section">
+                <div class="vision-container">
+                    <div class="vision-title-container">
+                        <p class="h2">Στήριξε Το Όραμα Μας</p>
+                        <p class="h2"><span class="text-background">Κάνε Την Αλλαγή</span> Στην Κοινότητα</p>
+                    </div>
+                    <p>
+                        Είναι πολύ σημαντικό μέσω των δράσεων της ομάδας να αναπτύσσεται διάλογος ο οποίος εν τέλη θα πλαισιώνει και θα καθοδηγεί αυτή την
+                        προσπάθεια της κοινότητας για ένα καλύτερο μέλλον. Είναι  ξεκάθαρο πως οι δράσεις μας δεν αποτελούν μια “παροχή” προς τους φοιτητές,
+                        αλλά ένα συλλογικό εγχείρημα που θα συντηρείται από την ίδια την κοινότητα και όχι αποκλειστικά και μόνο από την ομάδα . 
+                    </p>
+                    <div class="vision-card-container">
+                        <div class="vision-top-card-container">
+                            <div class="vision-card">
+                                <p class="h6">Στήριξε Την Ηλεκτρονική Βιβλιοθήκη</p>
+                                <p>
+                                    Στείλε μας τις σημειώσεις σου και μοιράσου τες με τους συμφοιτητές σου . <br>
+                                    Ανέβασε υλικό απο εργοτάξια και κατασκευές , εμπλουτίζοντας το 
+                                    φωτογραφικό μας αρχείο . </p>
+                            </div>
+                            <div class="vision-card">
+                                <p class="h6">Λάβε Μέρος Στις Εκδηλώσεις Μας</p>
+                                <p>
+                                    Στήριξε την ομάδα μας λαμβάνοντας μέρος στις δράσεις της και οργανώνοντας τις επόμενες . <br>
+                                    Κάνε εγγραφή στο newsletter μας για να μαθαίνεις πρώτος ποιά θα είναι η εποόμενη εκδήλωση !
+                                </p>
+                            </div>
+                        </div>
+                        <div class="vision-bottom-card-container">
+                            <div class="vision-card">
+                                <p class="h6">Μπες στην Συντακτική Ομάδα</p>
+                                <p>
+                                    Γράψε ένα άρθρο , πες την άποψη σου και σχεδίασε την επόμενη έκδοση της
+                                    φοιτητικής εφημερίδας . 
+                                </p>
+                            </div>
+                            <div class="vision-card">
+                                <p class="h6">Πές Μας Την Γνώμη Σου</p>
+                                <p>
+                                    Είναι σημαντικό να γνωρίζουμε το τί πιστεύει η φοιτητική κοινότητα για μας . <br>
+                                    Στείλε μας τις προτάσεις σου και τις ιδεές σου .
+                                </p>
+                            </div> 
+                        </div>                                                    
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+
+        <!--Newsletter-->
+        <div class="newsletter-container">
+            <div class="newsletter-text-container">
+                <p class="h4">Μην Μένεις Πίσω Στις Εξελίξεις !</p>
+                <p>Κάνε εγγραφή στο newsletter μας για να ενημερώνεσαι για θέματα που αφορούν την ομάδα και το τμήμα μας . </p>
+            </div>
+            <div class="newsletter-form-container">
+                <form>
+                    <input id="newsletter-input" type="email" placeholder="Email" name="email">
+                    <input class="newsletter-submit h6" type="submit" value="Υποβολή">
+                </form>
+            </div>
+        </div>
+        <!--CTO Join Our Team-->
+        <div class="join-team-container">
+            <p class="h3">Γίνε Μέλος Της Ομάδας Μας !</p>
+            <p class="h5">Γίνε Ένα Με Την Κοινότητα</p>
+            <div class="join-team-btn-container">
+                <a href="https://forms.gle/xwUJufLWUi8KFK6r8" class="button-link">Γίνε Μέλος !</a>
+                <a href="/Code/about.html" class="button-link">Μάθε Περισσότερα</a>
+            </div>
+        </div>
+        <!--End of The Page-->
+        <div class="end-page-container">
+            <div class="end-page-logo-container">
+                <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png" alt="ConcreteAuth - Logo">
+                <div class="logo-text small">ConcreteAuth</div>
+            </div>
+            <div class="end-page-social-media-container">
+                <a href="https://www.instagram.com/concreteauth/"><img src="/Assets/Icons/Instagram.png" alt="instagram"></a>
+                <a href="mailto:foitites@concreteauth.com"><img src="/Assets/Icons/Mail.png" alt="Mail"></a>
+            </div>
+            <a class="creative-commons small" href="https://creativecommons.org/licenses/by-nc/4.0/">@ConcreteAuth</a>
+        </div>
+
+    </footer>
+    <!--Loading Screen-->
+    <div class="screen">
+        <img class="logo-icon" src="/Assets/Images/ConcreteAuth Logo.png"> 
+    </div>
+</body>
+</html>
